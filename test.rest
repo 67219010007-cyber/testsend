@@ -1,0 +1,16 @@
+### TEST/ WEBSITE
+GET http://localhost:3000
+### TEST GET/dashboard WEBSITE
+GET http://localhost:3000/dashboard
+### TEST GET/snacklists WEBSITE
+GET http://localhost:3000/snacklists
+### DATA END POINT 
+GET http://localhost:3000/api/data
+
+### DATA END POINT ADDING A USER
+POST http://localhost:3000/api/data
+Content-Type: application/json
+
+{
+    "name": "ohioboy"
+}
